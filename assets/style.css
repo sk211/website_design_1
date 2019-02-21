@@ -1,0 +1,494 @@
+
+/*==========================================
+Base CSS
+===========================================*/
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fix {
+    overflow: hidden
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    line-height: 1.5;
+    color: #0a0a0a;
+    font-size: 15px;
+    font-family:'Open Sans', Arial, sans-serif;
+    color:#656565;
+
+}
+
+a {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    color: #bfbfbf;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.over{
+    overflow: hidden;
+}
+.clear{
+    clear: both;
+}
+
+/*==========================================
+Header CSS
+===========================================*/
+#header {
+    padding-top: 10px;
+    margin-bottom: 7px;
+}
+.header_top a {
+    padding: 0 7px;
+    color: red;
+}
+.navbar.navbar-default {
+    margin-bottom: 0;
+    padding: 0px 13px;
+    margin-bottom: 0px;
+}
+.header_img.over {
+    margin-top: -16px;
+    height: 69px;
+    width: 134px;
+    float: left;
+}
+.header_img.over a img {
+    width: 100%;
+    height: 53px;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+.nav.navbar-nav li a {
+    color: green;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: arial;
+}
+.active li a,.nav.navbar-nav li a:hover {
+    color: red;
+   
+}
+.nav.navbar-nav li a:active {
+	color: red;
+}
+.col-md-5 form input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 215px;
+    font-size: 14px;
+}
+
+.col-md-7 li {
+    list-style: none;
+}
+.col-md-6 ul li b a {
+    color: red;
+    margin: 2px 0px;
+}
+.navbar-header a {
+    width: 159px;
+    height: 80px;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000;
+    background-color: rgba(15, 4, 4, 0);
+    border: 1px solid #938989;
+    border-radius: 10px;
+}
+
+/*==========================================
+domein Menu CSS
+===========================================*/
+#domin form {
+    background: #0d5dd7;
+    text-align: center;
+    padding: 10px 0px 11px 110px;
+    font-size: 21px;
+}
+.table-responsive span {
+    padding-left: -3px;
+    padding-right: 39px;
+}
+
+
+/*==========================================
+clints link CSS
+===========================================*/
+
+#cilent {
+    margin: 65px 0;
+}
+
+
+/*==========================================
+Recent work and Menu CSS
+===========================================*/
+
+.grid-item.design, .grid-item.lara {
+    color: #595050;
+    float: left;
+    width: 256px;
+    margin: 14px 14px;
+}
+.flex-nowrap h4 {
+    margin: 24px 0 0px 0;
+}
+.btn-primary.text-center.text-capitalize {
+    display: inline-block;
+    padding: 5px 16px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.btn-group.d-inline li a {
+	color: #fff;
+}
+
+/*==========================================
+Home Slider CSS
+===========================================*/
+
+.tab-content img {
+    float: left;
+    padding-right: 24px;
+    padding-top: 19px;
+}
+.tab-content p {
+    padding-top: 16px;
+}
+
+/*==========================================
+contract  CSS
+===========================================*/
+
+.cotracr {
+    margin: 56px 10px;
+}
+.contract_from {
+    margin: 50px 0;
+}
+.btn.btn-theme.btn-block.btn-md {
+    background: #d40c0c;
+    color: #fff;
+}
+.container h2 {
+	font-size: 25px;
+}
+
+/*==========================================
+Web design CSS
+=======================================*/
+.web_containt {
+    margin: 50px 0;
+}
+
+.web_containt h3 {
+    color: blue;
+}
+.web_containt li {
+    list-style:  none;
+}
+/*==========================================
+Softower CSS
+===========================================*/
+.softer_contant, .email_contant, .facebook_contant{
+    margin:  50px 0;
+}
+
+.softer_contant h2, .facebook_contant h2 {
+    color: blue;
+}
+
+.softer_contant li, .facebook_contant li{
+    list-style:  none;
+}
+
+
+/*==========================================
+Portfolio CSS
+===========================================*/
+.price-value {
+    background: #857f7f;
+    padding: 10px 0;
+    text-align:  center;
+    font-size: 29px;
+    color:  #fff;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.price-value h4 {
+    padding-top: 10px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.price-value {
+    text-align:  center;
+}
+
+h5 {}
+
+h5 {}
+
+.price-value1 h5 {
+    background:  #00A750;
+    padding:  17px 28px;
+    text-align: center;
+    color:  #fff;
+    font-size: 20px;
+}
+
+.price-value1 {}
+
+.price-bg li {list-style:  none;text-align:  center;font-size:  20px;padding: 10px 0;color: red;border-top: 1px solid #a49c9c;}
+
+.price-bg a {
+    color: red;
+}
+
+.price-bg {}
+
+.cart1 , .cart3{
+    background: #000099;
+    text-align:  center;
+    padding:  15px;
+    font-size:  20px;
+    border-radius: 0 0px 10px 10px;
+}
+
+
+.pricing-plans {
+    margin: 58px 0;
+}{}
+
+/*==========================================
+Artical CSS
+===========================================*/
+
+#artical {
+    margin: 54px 0;
+}
+#artical h4,h3, h2 {
+    color: #847979;
+    font-size: 17px;
+    margin: 15px 0;
+}
+.main_content.fix h1{
+       font-size: 20px;
+    color: #756e6e;
+}
+
+/*==========================================
+Progress Bar CSS
+===========================================*/
+.progress {
+    height: 32px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+   }
+   .progress-bar ,.progress-bar-success ,.progress-bar-info ,.progress-bar-warning.active {
+    padding: 6px 0;
+}
+
+
+/*==========================================
+Project count CSS
+===========================================*/
+
+.col-md-4 {
+    margin: 30px 78px;
+}
+
+/*==========================================
+Testimonial CSS
+===========================================*/
+
+
+
+/*==========================================
+Payament action CSS
+===========================================*/
+#pament_img img {
+    margin: 48px 0;
+}
+
+
+/*==========================================
+Owl-carousel customized CSS
+===========================================*/
+
+
+
+/*==========================================
+about CSS
+===========================================*/
+.about h2 ,.pament h2{
+    color: blue;
+    font-size: 20px;
+}
+
+
+/*==========================================
+Blog CSS
+===========================================*/
+
+
+
+/*==========================================
+Contact CSS
+===========================================*/
+
+
+
+/*==========================================
+Footer CSS
+===========================================*/
+#footer {
+    background: #999;
+    padding: 60px 0;
+}
+.col-md-3 ul {
+  list-style: none;
+}
+.col-md-3 h3 {
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 35px;
+}
+.col-md-3 li a {
+  font-weight: ;
+}
+.col-md-3 {
+}
+#footer input[type="submit"] {
+    background: red;
+    border: none;
+    padding: 10px 11px;
+    color: #fff;
+    border-radius: 5px;
+    width: 73px;
+    font-size: 12px;
+}
+#footer input[type="text"] {
+    float: left;
+    width: 149px;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+#footer p {
+    margin: 0 0 10px;
+    color: #ddd;
+}
+/*==========================================
+Footer cpyright CSS
+===========================================*/
+
+#copy_right {
+    background: #fff;
+    padding: 11px 0;
+    margin-bottom: -79px;
+    padding-top: 38px;
+    color: #655959;
+}
+.fa.fa {
+    padding: 5px;
+    font-size: 18px;
+}
+#footer p {
+	color: #655F5F;
+}
+
+/*==========================================
+Preloader CSS
+===========================================*/
+body.preloader-active{
+    position: absolute;
+    width: 100%
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    overflow: hidden;
+}
+.preloader{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top: 0;
+    background: #262626;
+    z-index: 999999;
+
+}
+.preloader-spinner{
+    background: url(img/preloder.gif) no-repeat center center ;
+    width: 350px;
+    height: 350px;
+    left: 40%;
+    top: 33%;
+    margin-top: -50px;
+    margin-left: -50px;
+    position: absolute;
+}
+/*==========================================
+Preloader CSS end
+===========================================*/
